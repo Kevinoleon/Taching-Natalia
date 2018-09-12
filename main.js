@@ -17,6 +17,12 @@ while(x<10){
 	//console.log(x);
 	x++;
 }
+if(1!=1 && x==10){
+	console.log('this is true');
+
+}else{
+	console.log('it is true');
+}
 
 
 //alert(colors);

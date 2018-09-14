@@ -35,6 +35,7 @@ for (var j=0; j <= palabra.length - 1; j++) {
 alert(arreglo.join(""));
 
 /*la idea es eliminar este comentario haciendo una regreción a un commit anterior hecho en github*/
+/* *regresión */
 var x=4;
 
 

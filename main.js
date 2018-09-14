@@ -32,8 +32,21 @@ var corrimiento = 4;
 for (var j=0; j <= palabra.length - 1; j++) {
 	arreglo.push((palabra.charAt((j+corrimiento) % palabra.length)));
 }
-alert(arreglo.join(""));
+console.log(arreglo.join(""));
 
+var fruit= "banana";
+
+switch(fruit){
+	case "kiwi":
+		console.log("I love bananas");
+		break;	
+	case "apple":
+		console.log("I hate apples");
+		break;
+	default:
+		console.log("Is that a fruit?");
+		break;
+}
 
 
 //alert(colors);

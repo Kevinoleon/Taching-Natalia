@@ -24,6 +24,17 @@ if(1!=1 && x==10){
 	console.log('it is true');
 }
 
+var palabra= 'hello kitty '
+console.log(palabra.charAt(2));
+var arreglo=new Array();
+var corrimiento = 4;
+
+for (var j=0; j <= palabra.length - 1; j++) {
+	arreglo.push((palabra.charAt((j+corrimiento) % palabra.length)));
+}
+alert(arreglo.join(""));
+
+
 
 //alert(colors);
 //alert(numbers.reverse());

@@ -48,6 +48,26 @@ switch(fruit){
 		break;
 }
 
+var person = {
+	firstName: 'kevin',
+	lastName: 'leon',
+	age:25,
+	address: {
+		street:'rivadavia',
+		city:'BsAs',
+		state:'Caba'		
+	},
+	fullname: function(){
+		return this.firstName+" "+this.lastName+"!";
+	}
+}
+
+
+
+console.log(person.fullname());
+
+
+
 
 //alert(colors);
 //alert(numbers.reverse());

@@ -62,9 +62,17 @@ var person = {
 	}
 }
 
+var apple= new Object();
+
+apple.color='red';
+apple.shape='round';
+
+apple.describe=function(){
+	return 'apple is the color '+this.color+' and the shape '+this.shape;
+}
 
 
-console.log(person.fullname());
+console.log(apple.describe());
 
 
 

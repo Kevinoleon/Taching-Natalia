@@ -71,8 +71,22 @@ apple.describe=function(){
 	return 'apple is the color '+this.color+' and the shape '+this.shape;
 }
 
+function Fruit(name, color, shape){
+	this.name=name;
+	this.color=color;
+	this.shape=shape;
 
-console.log(apple.describe());
+	this.describe= function(){
+	return this.name+' is the color '+this.color+' and the shape '+this.shape;
+}
+}
+
+
+
+var noki=new Fruit('noki', 'red', 'round');
+
+
+console.log(noki.describe());
 
 
 

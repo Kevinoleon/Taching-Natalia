@@ -71,6 +71,7 @@ apple.describe=function(){
 	return 'apple is the color '+this.color+' and the shape '+this.shape;
 }
 
+//patrón constructor
 function Fruit(name, color, shape){
 	this.name=name;
 	this.color=color;
@@ -81,12 +82,20 @@ function Fruit(name, color, shape){
 }
 }
 
+var users= [
+	{
+		name:"kevin", age:"25"
+	},
+	{
+		name: "natalia", age: "20"
+	}
+];
 
 
 var noki=new Fruit('noki', 'red', 'round');
 
 
-console.log(noki.describe());
+console.log(users[0].age);
 
 
 

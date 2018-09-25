@@ -97,6 +97,19 @@ var noki=new Fruit('noki', 'red', 'round');
 
 console.log(users[0].age);
 
+function doClick1(){
+	alert("you clicked")
+}
+
+function doClick2(id){
+	if(id.innerHTML=="you clicked here"){
+		id.innerHTML = "click me to change html button";
+	}else{
+		id.innerHTML="you clicked here";
+	}
+	
+}
+
 
 
 

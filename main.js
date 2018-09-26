@@ -112,6 +112,16 @@ function doClick2(id){
 
 
 
+function doClick3(){
+	var heading=document.getElementById("heading");
+
+	heading.innerHTML="esto acaba de cambiar";
+	}
+	
+
+
+
+
 
 //alert(colors);
 //alert(numbers.reverse());

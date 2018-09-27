@@ -117,6 +117,12 @@ function doClick3(){
 
 	heading.innerHTML="esto acaba de cambiar";
 	}
+
+function doClick4(){
+	var time=document.getElementById("time");
+
+	time.innerHTML= Date();
+	}
 	
 
 

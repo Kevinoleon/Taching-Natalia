@@ -109,6 +109,8 @@ function doClick2(id){
 	}
 	
 }
+  
+
 
 
 
@@ -123,6 +125,11 @@ function doClick4(){
 
 	time.innerHTML= Date();
 	}
+
+function mouseover(id){
+	id.innerHTML="you hovered";
+	
+}
 	
 
 

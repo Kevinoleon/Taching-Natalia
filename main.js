@@ -106,11 +106,16 @@ function doClick2(id){
 		id.innerHTML = "click me to change html button";
 	}else{
 		id.innerHTML="you clicked here";
-	}
+	} 
 	
 }
   
+function changeBackground(element){
+	console.log(element.value);
+	var body=document.getElementById('body');
+	body.style.backgroundColor=element.value;
 
+}
 
 
 
@@ -130,6 +135,7 @@ function mouseover(id){
 	id.innerHTML="you hovered";
 	
 }
+
 	
 
 

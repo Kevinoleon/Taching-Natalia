@@ -11,7 +11,7 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 
 </head>
-<body onload="alert('se cargó la pagina')">
+<body id="body" onload="alert('se cargó la pagina')">
  
 	<div class="header ">
 		<h1 class=" text-center text-primary my-5">Repasando Javascript unido con boostrap</h1>
@@ -37,7 +37,7 @@
 	</div>
 	<div class="container ">
 		<div class="row ">
-			<div class="col-md-4 py-4 bg-primary">
+			<div class="col-md-4 py-4 my-4 bg-primary">
 				<form action="">
 					<div class="form-group">
 	                	<label for="name">Name</label>
@@ -47,6 +47,14 @@
 	                	<label for="email">Email address</label>
 	                	<input class="form-control form-control-lg" type="email" id="email" placeholder="Enter email">
 	                	<small class="form-text ">Your email will not ever be shared</small>
+	            	</div>
+	            	<div class="form-group">
+	            		<label for="gender">Gender</label>
+	            		<select class="form-control" id="gender" onchange="changeBackground(this)">
+	            			<option>Red</option>
+	            			<option>Blue</option>
+	            			<option>Green</option>
+	            		</select>
 	            	</div>
 	            	<button class="btn  btn-block" type="submit">Submit</button>
 				</form>

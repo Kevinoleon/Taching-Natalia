@@ -112,8 +112,9 @@ function doClick2(id){
   
 function changeBackground(element){
 	console.log(element.value);
-	var body=document.getElementById('body');
-	body.style.backgroundColor=element.value;
+	var header=document.getElementById('header');
+	header.style.color=element.value;
+
 
 }
 

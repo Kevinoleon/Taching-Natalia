@@ -137,6 +137,21 @@ function mouseover(id){
 	
 }
 
+/*validate form*/
+function validateForm(){
+	var firstname=document.forms["myForm"]["name"].value;
+
+	if(firstname==null || firstname==""){
+		alert("First name is required");
+		return false;
+	}
+	if(firstname.length<4){
+		alert("First must be at least 4 characters(ted excluded)");
+		return false;
+	}
+}
+
+
 	
 
 
